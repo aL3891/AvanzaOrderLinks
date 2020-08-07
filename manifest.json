@@ -1,8 +1,10 @@
 {
     "name": "Avanza order links",
     "version": "1.0",
-    "description": "Extension to enable specifying price and volume as query parameters to the avanza order page",
+    "description": "Extension to enable specifying 'price' and 'volume' as query parameters to the avanza order page",
     "manifest_version": 2,
+    "homepage_url": "https://github.com/aL3891/AvanzaOrderLinks",
+    "author": "Allan Lindqvist",
     "content_scripts": [
         {
           "matches": ["https://www.avanza.se/handla/order.html/*"],

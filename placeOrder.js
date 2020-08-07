@@ -19,7 +19,7 @@ setTimeout(function () {
         e = window.document.getElementById("sellPrice");
     }
 
-    var price = parseInt(urlParams.get('price'));
+    var price = parseFloat(urlParams.get('price'));
     if(!isNaN(price)){
         e.value = price;
         e.dispatchEvent(new Event('input', { 'bubbles': true }));
